@@ -1,0 +1,14 @@
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+import thunk from 'redux-thunk';
+import greetingReducer from './greeting';
+
+const rootReducer = combineReducers({
+    greeting: greetingReducer
+});
+
+const store = () => {
+    return createStore(rootReducer, {}, applyMiddleware(thunk, logger));
+};
+
+export default store;

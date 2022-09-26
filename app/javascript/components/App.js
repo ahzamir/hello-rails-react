@@ -1,20 +1,16 @@
 import React from "react";
-import PropTypes from "prop-types";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import HelloWorld from "./HelloWorld";
+import Greeting from "./Greeting";
 
-class App extends React.Component {
-  render() {
+function App() {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/" render={() => ("Home")} />
-          <Route exact path="/hello" render={() => (<HelloWorld greeting="Hello World" />)} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Greeting />} />
+        </Routes>
       </Router>
     );
-  }
 }
 
 export default App;

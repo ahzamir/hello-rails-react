@@ -1,14 +1,11 @@
 Rails.application.routes.draw do
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-  root "static#index"
-  namespace :v1, defaults: { format: :json } do
-    get 'greetings', to: 'greetings#getRandomGreeting'
+  namespace :api do
+    namespace :v1 do
+      resources :greetings
+    end
   end
-
-  get '*path', to: 'static#index', constraints: ->(request) do
-    !request.xhr? && request.format.html?
-  end
-
+  root 'static#index'
   # Defines the root path route ("/")
   # root "articles#index"
 end
