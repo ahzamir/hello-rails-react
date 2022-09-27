@@ -6,10 +6,11 @@
 
 ## Built With
 
-- Ruby
-- Ruby on Rails
-- React
-- PostgreSQL
+- [x] Frontend: [React-Redux](https://react-redux.js.org/)
+- [x] Backend: [Ruby on Rails](https://rubyonrails.org/)
+- [x] Linter: [Rubocop](https://rubocop.org/)
+- [x] Code Editor: [VS Code](https://code.visualstudio.com/)
+- [x] Database: [PostgreSQL](https://www.postgresql.org/)
 
 ## Getting Started
 
@@ -48,21 +49,61 @@ $ rails db:create
 
 ### Prerequisites
 
+- [x] A web browser like [Google Chrome](https://www.google.com/chrome/).
+- [x] A code editor like [Visual Studio Code](https://code.visualstudio.com/).
+- [x] A terminal to run the code.
+- [x] [Ruby](https://www.ruby-lang.org/en/) installed on your computer.
+- [x] [Rails](https://rubyonrails.org/) installed on your computer.
+- [x] [Node.js](https://nodejs.org/en/) installed on your computer.
+- [x] [PostgreSQL](https://www.postgresql.org/) installed on your computer.
+- [x] [Yarn](https://yarnpkg.com/) installed on your computer.
+- [x] [Git](https://git-scm.com/) installed on your computer.
+
+You can check if Git is installed by running the following command in the terminal.
+```
+$ git --version
+```
+
+Likewise for Ruby installation.
+```
+$ ruby --version && irb
+```
+
+To install rails, in the terminal kindly run this command
+```
+$ gem install rails
+```
+
+To check if node is installed, kindly run this command in the terminal.
+```
+$ node --version
+```
+
+To check if yarn is installed, kindly run this command in the terminal.
+```
+$ yarn --version
+```
+
+To check if PostgreSQL is installed, kindly run this command in the terminal.
+```
+$ psql --version
+```
+
 IDE(VSCode etc.), WSL(for Windows OS), for linters RuboCop
 
 ## Author
 
-👤 **Huseyin Biyik**
+👤 **Ahmad Zamir Yousufi** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
-- GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
-- Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
+- GitHub: [@ahzamir](https://github.com/ahzamir).
+- Twitter: [@YousufiZamir](https://twitter.com/YousufiZamir)
+- LinkedIn: [ahmad-zamir-yousufi](https://www.linkedin.com/in/ahzamir/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ahzamir/hello-rails-react/issues).
 
 ## Show your support
 
