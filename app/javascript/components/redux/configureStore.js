@@ -7,8 +7,5 @@ const rootReducer = combineReducers({
     greeting: greetingReducer
 });
 
-const store = () => {
-    return createStore(rootReducer, {}, applyMiddleware(thunk, logger));
-};
-
+const store = createStore(rootReducer, {}, applyMiddleware(thunk, logger));
 export default store;
