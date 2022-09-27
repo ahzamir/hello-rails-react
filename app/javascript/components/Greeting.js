@@ -10,7 +10,7 @@ export default function Greeting() {
     }, []);
     return (
         <div>
-            <p>Hi</p>
+            <h1>Greeting: {greeting.message}</h1>
         </div>
     );
 }
