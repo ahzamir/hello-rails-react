@@ -89,7 +89,9 @@ To check if PostgreSQL is installed, kindly run this command in the terminal.
 $ psql --version
 ```
 
-## Authors
+IDE(VSCode etc.), WSL(for Windows OS), for linters RuboCop
+
+## Author
 
 👤 **Ahmad Zamir Yousufi** <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="20"/>
 
