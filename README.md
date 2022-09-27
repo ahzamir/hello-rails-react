@@ -1,57 +1,62 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## hello-rails-react
 
-> Description the project.
+> Created to learn how React and Rails work together.
 
+## Built With
 
-## Built With 
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available) 💻
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- Ruby on Rails
+- React
+- PostgreSQL
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+1- Copy this link:
+```
+$ https://github.com/ahzamir/hello-rails-react.git
+```
+2- Get the directory that you want to clone the repository. <br>
+3- Open the command prompt in this directory. <br>
+4- Write 
+```
+$ git clone https://github.com/ahzamir/hello-rails-react.git
+```
+5- Go to the repository folder in your command prompt:
+```
+$ cd hello-rails-react
+```
+6- You might need to install bundles with:
+```
+$ bundle install
+```
+And npm dependencies with:
+```
+$ npm i
+```
+6- Go to command line and run the command below for the live server:
+```
+$ ./bin/dev
+```
+7- Run the command below to create database:
+```
+$ rails db:create
+```
 
 ### Prerequisites
 
-You must have a browser on your device, visual code, a git version, [node.js](https://nodejs.org/en/) installed in your device and clone the repo from GitHub and follow the steps below.
+IDE(VSCode etc.), WSL(for Windows OS), for linters RuboCop
 
-### Setup
+## Author
 
-Clone the repository from GitHub, open the project folder, inside the project direcory open the commanline or Terminal and install the dependicies.
+👤 **Huseyin Biyik**
 
-### Install
-
-inside the project direcory open the commanline or Terminal, run npm install to install all the dependicies.
-
-### Usage
-
-To use this project or app run npm start in the project directory and you will see the live serever open on youe browser.
-
-### Run tests
-
-For running tests inside the project directory run npm test in command line or Terminal.
-
-### Deployment
-
-
-## Authors
-
-- GitHub: [@ahzamir](https://github.com/ahzamir).
-- Twitter: [@YousufiZamir](https://twitter.com/YousufiZamir)
-- LinkedIn: [ahmad-zamir-yousufi](https://www.linkedin.com/in/ahzamir/)
+- GitHub: [@huseyinbiyik](https://github.com/huseyinbiyik)
+- Twitter: [@huseyin__biyik](https://twitter.com/huseyin__biyik)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/huseyin-b%C4%B1y%C4%B1k/)
 
 ## 🤝 Contributing
 
@@ -65,10 +70,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+-Thank you to Microverse Inc.
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE.md) licensed.
